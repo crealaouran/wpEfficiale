@@ -1,0 +1,14 @@
+
+# ingore la config locale
+.htaccess
+wp-config.php
+
+#Installation Wordpress
+/wp-cms/*
+
+# rien que les themes
+/wp-content/*
+!/wp-content/themes
+
+#  fichiers de scu
+wp-cli.local.yml
