@@ -1,0 +1,17 @@
+path: wp-cms/
+color: true
+
+
+core install:
+  title: "WordPress Project !"
+  url: http://localhost/efficiale/
+  admin_user: Administrateur29
+  admin_email: espam@laouran.com
+
+core config:
+  dbuser: root
+  dbpass: laurent
+  dbname: wp_efficialeweb
+  extra-php: |
+    define( 'WP_DEBUG', true );
+    define( 'WP_POST_REVISIONS', 50 );
